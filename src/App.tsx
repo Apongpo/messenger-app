@@ -11,7 +11,7 @@ const App: React.FC = () => {
         const newMessage: Message = {
             id: (messages.length + 1).toString(),
             text,
-            timestamp: new Date(),
+            timestamp: new Date()
         };
         setMessages([...messages, newMessage]);
     };

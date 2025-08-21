@@ -2,9 +2,9 @@ import React from 'react';
 import './MessageList.css';
 
 interface Message {
-    id: number;
+    id: string;
     text: string;
-    timestamp: string;
+    timestamp: Date;
 }
 
 interface MessageListProps {
